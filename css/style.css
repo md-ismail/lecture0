@@ -1,0 +1,53 @@
+body {
+    background-color: #BDBDBD;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: #CED8F6;
+    }
+  }
+
+
+  .divNav {
+    text-align:center;  font-size: x-large;  height: 40px; 
+  }
+
+.divNav  a {
+    color: #e99e58;
+    
+  }
+  
+  .divNav  a:hover {
+    color: #633306;
+    text-decoration: underline;
+  }
+
+  p {
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 2px;
+  }
+  p::first-letter{
+      font-weight: bolder;
+      font-size: x-large;
+  }
+  
+  p:first-of-type {
+    font-weight: bolder;
+    }
+
+#rightImage{
+
+    width:20%;height:20%;margin-left:15px; margin-right: 2px; float:right;
+}
+ .divPageContent
+ {
+    text-indent: 20px;
+    margin-left: 20px;
+
+ } 
+
+ ul {list-style-type:square;font-weight: bolder; padding-top:10px ;}
+ ol {list-style-type: decimal; font-weight:lighter;}
+ li {padding-top:5px ;}

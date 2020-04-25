@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "AdvStyle.css",
+	"sources": [
+		"testScss/AdvStyle.scss"
+	],
+	"sourcesContent": [
+		"$font-stack:    Helvetica, sans-serif;\r\n$global-text-color: rebeccapurple;\r\n\r\n\r\ndiv {\r\n  ul {\r\n    margin: 10px;\r\n    padding: 10px;\r\n    list-style: circle;\r\n\r\n  }\r\n\r\n  li { \r\n    padding-bottom: 5px;\r\n    font: 100% $font-stack;\r\n    color: $global-text-color;\r\n  }\r\n\r\n\r\n}\r\n\r\n%style-shared {\r\n  border: 1px solid #ccc;\r\n  padding: 10px;\r\n  color: #333;\r\n}\r\n\r\nth\r\n{\r\n  @extend %style-shared;\r\n  text-align: center;\r\n  background-color: #4CAF50;\r\n  color: white;\r\n\r\n}\r\ntd\r\n{\r\n  @extend %style-shared;\r\n  text-align: left;\r\n\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAIA,AACE,GADC,CACD,EAAE,CAAC;EACD,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,MAAM;CAEnB;;;AANH,AAQE,GARC,CAQD,EAAE,CAAC;EACD,cAAc,EAAE,GAAG;EACnB,IAAI,EAAE,IAAI,CAdE,SAAS,EAAE,UAAU;EAejC,KAAK,EAdW,aAAa;CAe9B;;;AAWH,AANA,EAME,EAQF,EAAE,CAdY;EACZ,MAAM,EAAE,cAAc;EACtB,OAAO,EAAE,IAAI;EACb,KAAK,EAAE,IAAI;CACZ;;;AAED,AAAA,EAAE,CACF;EAEE,UAAU,EAAE,MAAM;EAClB,gBAAgB,EAAE,OAAO;EACzB,KAAK,EAAE,KAAK;CAEb;;;AACD,AAAA,EAAE,CACF;EAEE,UAAU,EAAE,IAAI;CAEjB"
+}
