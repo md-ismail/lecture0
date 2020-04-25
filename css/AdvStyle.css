@@ -1,0 +1,34 @@
+/* line 6, ../testScss/AdvStyle.scss */
+div ul {
+  margin: 10px;
+  padding: 10px;
+  list-style: circle;
+}
+
+/* line 13, ../testScss/AdvStyle.scss */
+div li {
+  padding-bottom: 5px;
+  font: 100% Helvetica, sans-serif;
+  color: rebeccapurple;
+}
+
+/* line 22, ../testScss/AdvStyle.scss */
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+/* line 28, ../testScss/AdvStyle.scss */
+th {
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* line 36, ../testScss/AdvStyle.scss */
+td {
+  text-align: left;
+}
+
+/*# sourceMappingURL=AdvStyle.css.map */
